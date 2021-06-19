@@ -13,5 +13,4 @@
 #    You should have received a copy of the GNU General Public License
 #    along with WinCrack.  If not, see <https://www.gnu.org/licenses/>.
 
-sudo apt-get install python3
 mkdir /mnt/hdml
