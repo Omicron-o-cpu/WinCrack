@@ -22,5 +22,4 @@ os.system("sudo chmod +x src/cont.sh")
 
 os.system("mkdir /mnt/hdml")
 
-os.system("cd src")
-os.system("./ri.sh")
+os.system("rm install.py -r")
