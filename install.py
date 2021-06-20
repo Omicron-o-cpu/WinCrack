@@ -15,11 +15,10 @@
 
 import os
 
-os.system("sudo chmod +x install.sh")
 os.system("sudo chmod +x correctdisk.sh")
 os.system("sudo chmod +x rmcrack.sh")
 os.system("sudo chmod +x wincrack.sh")
-os.system("sudo chmod +x src/con.sh")
+os.system("sudo chmod +x src/cont.sh")
 
 os.system("mkdir /mnt/hdml")
 
