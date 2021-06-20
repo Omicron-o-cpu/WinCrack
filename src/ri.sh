@@ -13,5 +13,4 @@
 #    You should have received a copy of the GNU General Public License
 #    along with WinCrack.  If not, see <https://www.gnu.org/licenses/>.
 
-mv /mnt/hdml/Windows/System32/config/winc.py src
-sudo umount /mnt/hdml
+rm install.py -r

@@ -15,11 +15,13 @@
 
 import os
 
-os.system("sudo fdisk -l")
-print("\nEnter the disk location: ")
-disk = input()
-os.system("sudo mount -rw " + disk + " /mnt/hdml")
+os.system("sudo chmod +x install.sh")
+os.system("sudo chmod +x correctdisk.sh")
+os.system("sudo chmod +x rmcrack.sh")
+os.system("sudo chmod +x wincrack.sh")
+os.system("sudo chmod +x src/con.sh")
 
-os.system("mv winc.py /mnt/hdml/Windows/System32/config")
+os.system("mkdir /mnt/hdml")
 
-os.system("./cont.sh")
+os.system("cd src")
+os.system("./ri.sh")
